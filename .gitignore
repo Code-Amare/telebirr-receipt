@@ -1,0 +1,27 @@
+
+Your existing class already exposes methods such as `load()`, `exists()`, `is_completed()`, `verify_payment()`, `to_dict()`, and `to_json()`, so these are legitimate examples based directly on your implementation. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3} :contentReference[oaicite:4]{index=4}
+
+---
+
+# 5. Create `.gitignore`
+
+```gitignore
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+dist/
+build/
+
+.idea/
+.vscode/
+
+.env
