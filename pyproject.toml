@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "telebirr-receipt"
+version = "1.0.0"
+description = "Robust telebirr receipt scraper and verifier"
+requires-python = ">=3.8"
+dependencies = [
+    "requests>=2.28",
+    "beautifulsoup4>=4.11",
+]
+
+[tool.setuptools.packages.find]
+include = ["telebirr_receipt*"]
